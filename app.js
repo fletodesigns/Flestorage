@@ -29,7 +29,7 @@ function createFolderCard(folderName) {
     folderCard.classList.add('folder-card');
     folderCard.innerHTML = `
         <div class="folder-icon">
-            <img src="folder-icon.png" alt="Folder Icon">
+            <img src="https://flestorage.netlify.app/img/folder-icon.png" alt="Folder Icon">
         </div>
         <div class="folder-details">
             <p>${folderName}</p>
