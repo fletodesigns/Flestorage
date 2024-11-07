@@ -1,0 +1,54 @@
+:root{
+    --main-color: #36ffbf;
+    --bg-color: #ffffff;
+    --second-bg-color: #efefef;
+    --text-color: #24252a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s;
+    font-family: "Poppins";
+}
+
+.header {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+}
+
+.header .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.header .menu .search-bar {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.header .menu .search-bar label {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.header .menu .search-bar input{
+    width: 110px;
+    padding: 10px;  
+    padding-left: 0;
+    border: 0;
+    outline: 0;
+    font-size: 20px;
+}
+
+.header .menu button {
+    border: 0;
+    background: transparent;
+}
